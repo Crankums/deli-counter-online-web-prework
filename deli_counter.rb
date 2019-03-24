@@ -6,6 +6,6 @@ def line(arr)
   else each do |i|
     count = 1
     str = "The line is currently"
-    str << " #{count}""
+    str << " #{count}"
   end
 end
