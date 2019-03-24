@@ -5,8 +5,8 @@ def line(arr)
     puts "The line is currently empty."
   else arr.each do |i|
     count = 1
-    str = "The line is currently"
-    str << " #{count}"
+    str = "The line is currently: "
+    str << "#{count}. #{i}"
     puts str
   end
   end
