@@ -6,6 +6,7 @@ def line(arr)
   arr.each do |i|
     str << "#{count}. #{i}"
     count +=1
+    end
   if arr.length < 1
     puts "The line is currently empty."
   else puts str
