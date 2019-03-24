@@ -7,6 +7,7 @@ def line(arr)
     count = 1
     str = "The line is currently"
     str << " #{count}"
+    puts str
   end
   end
 end
