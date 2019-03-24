@@ -8,4 +8,5 @@ def line(arr)
     str = "The line is currently"
     str << " #{count}"
   end
+  end
 end
