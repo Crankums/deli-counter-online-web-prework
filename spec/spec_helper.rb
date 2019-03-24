@@ -7,6 +7,5 @@ require_relative '../deli_counter'
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
-  config.fail_fast = true
   # config here
 end
