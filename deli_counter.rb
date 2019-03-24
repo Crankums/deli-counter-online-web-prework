@@ -4,7 +4,7 @@ def line(arr)
   count = 1
   str = "The line is currently: "
   arr.each do |i|
-    str << "#{count}. #{i}"
+    str << " #{count}. #{i}"
     count +=1
     end
   if arr.length < 1
