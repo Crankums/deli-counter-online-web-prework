@@ -10,5 +10,4 @@ def line(arr)
     puts "The line is currently empty."
   else puts str
   end
-  end
 end
